@@ -1,0 +1,18 @@
+{
+  "name": "house",
+  "version": "1.0.0",
+  "description": "house",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "house"
+  ],
+  "author": "marven@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "nodemailer": "^4.0.1"
+  }
+}
