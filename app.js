@@ -66,8 +66,8 @@ function sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,ro
         port: 465,
         secure: true, // secure:true for port 465, secure:false for port 587
         auth: {
-            user: 'marven@163.com',
-            pass: 'qq123456' // QQ邮箱需要使用授权码
+            user: '', //邮箱账户 
+            pass: '' // 邮箱密码(QQ邮箱需要使用授权码)
         }
     });
 
