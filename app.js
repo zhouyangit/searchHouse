@@ -49,7 +49,7 @@ function formatData(list, info) {
                 axios.get(`http://117.71.57.99:9080/online/roomConfig.xp?action=getRoomConfig&roomID=${id}`).then(res => {
                    let {itemName,roomTypeName,price,roomArea}  = res.data.info;
                    let roomDirection = res.data.roomDirection;
-                   sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,roomArea)
+                   sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,roomArea,itemName)
                 })
             }
         }
