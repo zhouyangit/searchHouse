@@ -73,8 +73,8 @@ function sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,ro
 
     // 设置邮件内容（谁发送什么给谁）
     let mailOptions = {
-        from: '"zhouyang" <marven@163.com>', // 发件人
-        to: 'yangzhou2@iflytek.com', // 收件人
+        from: '"xxx" <marven@163.com>', // 发件人
+        to: 'xxx@163.com', // 收件人
         subject: `Hello ✔有可入住的房源啦`, // 主题
         text: 'search house', // plain text body
         html: `<b style="font-size:18px;">已为你搜到可入住的房源啦</b>
