@@ -49,7 +49,7 @@ function formatData(list, info) {
                 axios.get(`http://117.71.57.99:9080/online/roomConfig.xp?action=getRoomConfig&roomID=${id}`).then(res => {
                    let {itemName,roomTypeName,price,roomArea}  = res.data.info;
                    let roomDirection = res.data.roomDirection;
-                   sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,roomArea)
+                   sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,roomArea,itemName)
                 })
             }
         }
@@ -66,15 +66,15 @@ function sendEmail(info, roomFloor, roomName,roomDirection,roomTypeName,price,ro
         port: 465,
         secure: true, // secure:true for port 465, secure:false for port 587
         auth: {
-            user: 'marven@163.com',
-            pass: 'qq123456' // QQ邮箱需要使用授权码
+            user: '', //邮箱账户 
+            pass: '' // 邮箱密码(QQ邮箱需要使用授权码)
         }
     });
 
     // 设置邮件内容（谁发送什么给谁）
     let mailOptions = {
-        from: '"zhouyang" <marven@163.com>', // 发件人
-        to: 'yangzhou2@iflytek.com', // 收件人
+        from: '"xxx" <marven@163.com>', // 发件人
+        to: 'xxx@163.com', // 收件人
         subject: `Hello ✔有可入住的房源啦`, // 主题
         text: 'search house', // plain text body
         html: `<b style="font-size:18px;">已为你搜到可入住的房源啦</b>
