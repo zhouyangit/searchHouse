@@ -4,6 +4,8 @@
  * @module [axios, nodemailer]
  * 
  * author: marven@163.com
+ *
+ * qq:703798432
  * 
  * date: 2017/08/16
  * 
@@ -24,15 +26,15 @@ setInterval(()=> {
             formatData(res.data.list, '2栋')
         });
 
-    // axios.get('http://117.71.57.99:9080/online/roomResource.xp?action=formList1&code=01&buildingCode=0011449816876736sfx')
-    //     .then(res=> {
-    //         formatData(res.data.list, '综合楼东')
-    //     });
+     axios.get('http://117.71.57.99:9080/online/roomResource.xp?action=formList1&code=01&buildingCode=0011449816876736sfx')
+         .then(res=> {
+            formatData(res.data.list, '综合楼东')
+         });
 
-    // axios.get('http://117.71.57.99:9080/online/roomResource.xp?action=formList1&code=01&buildingCode=0011449816949458BXk')
-    //     .then(res=> {
-    //         formatData(res.data.list, '综合楼西')
-    //     })
+     axios.get('http://117.71.57.99:9080/online/roomResource.xp?action=formList1&code=01&buildingCode=0011449816949458BXk')
+         .then(res=> {
+             formatData(res.data.list, '综合楼西')
+         })
     i++
 },10000)
 
