@@ -1,8 +1,8 @@
 # 自动刷新房源并发送可租房源到邮件
 
-** 使用教程也可以看我的博客 http://www.cnblogs.com/zhouyangla/p/7402341.html **
+使用教程也可以看我的博客 http://www.cnblogs.com/zhouyangla/p/7402341.html 
 
-### 一.安装
+## 一.安装
 1.本地安装node.js。 node.js安装教程(http://jingyan.baidu.com/article/fd8044faf2e8af5030137a64.html)
 
 2.clone代码到本地，在该项目根目录运行
@@ -36,7 +36,7 @@
  ```
 
 
-### 二.运行
+## 二.运行
 
 在终端输入
 
