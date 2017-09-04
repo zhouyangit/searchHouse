@@ -2,6 +2,9 @@
 
 使用教程也可以看我的博客 http://www.cnblogs.com/zhouyangla/p/7402341.html 
 
+![预览图](http://images2017.cnblogs.com/blog/934644/201708/934644-20170818173029459-369460812.png)
+![预览图](http://images2017.cnblogs.com/blog/934644/201708/934644-20170818173212006-1642455094.png)
+
 ## 一.安装
 1.本地安装node.js。 node.js安装教程(http://jingyan.baidu.com/article/fd8044faf2e8af5030137a64.html)
 
