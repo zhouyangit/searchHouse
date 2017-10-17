@@ -20,7 +20,7 @@
         secure: true, // secure:true for port 465, secure:false for port 587
         auth: {
             user: 'xxx@163.com',  //这里替换成你自己的163邮箱。
-            pass: 'xxxxxx' // 这里输入你的邮箱密码 
+            pass: 'xxxxxx' // 这里输入你的邮箱授权码 
         }
     });
     
